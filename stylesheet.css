@@ -1,0 +1,77 @@
+.container-fluid {
+  position: relative;
+  text-align: center;
+  border: 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-family:'Fjalla One', sans-serif;
+  background-color: rgba(231, 247, 247, 0.644);
+  font-stretch: expanded;
+}
+
+.navbar-nav{
+  justify-content: space-around;
+  background-color: white;
+}
+
+.section{
+font-size: 28px;
+justify-content: space-around;
+font-family: 'Fjalla One', sans-serif; 
+}
+
+.p{
+  font-family:'Fjalla One', sans-serif;
+  font-size: 18px;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25%;
+  
+}
+
+.col-md-6{
+  background-color: rgb(231, 231, 227);
+  
+}
+
+.col-sm-4{
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-md-10{
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 160px;
+  text-align: center;
+}
+
+.lead{
+  text-align: center;
+  position: relative;
+  padding-left: 240px;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+}
+
+.contact{
+  font-size: 34px;
+}
+
+.container{
+font-size: 34px;
+}
